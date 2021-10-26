@@ -61,7 +61,6 @@ body {
   background-image: url(https://source.unsplash.com/3MNzGlQM7qs/1500x1500);
 }
 
-/* Flex Items */
 .panel > * {
   margin: 0;
   width: 100%;
