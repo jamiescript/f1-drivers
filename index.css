@@ -69,13 +69,22 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  transform: translateY(45%);
+}
+
+.panel > * {
+  transform: translateY(-200%);
+}
+
+.panel.open-active > * {
+  transform: translateY(45%);
 }
 
 .panel > *:first-child {
-  transform: translateY(-100%);
+  transform: translateY(-120%);
 }
 .panel.open-active > *:first-child {
-  transform: translateY(0);
+  transform: translateY(120%);
 }
 .panel > *:last-child {
   transform: translateY(100%);
